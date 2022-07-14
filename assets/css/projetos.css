@@ -1,0 +1,114 @@
+.projetos {
+    background-color: #3eaa92;
+}
+
+.projetos h1 {
+    padding: 45px;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.projetos__container {
+    margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 961px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    background-color: wheat;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-info {
+    height: 100%;
+    bottom: 0;
+    text-shadow: 0.3 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+}
+
+.card-info h1 {
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    font-size: 30px;
+    padding: 0;
+}
+
+.card-info p {
+    text-align: left;
+    margin: 5px 30px 15px 30px;
+    padding: 5px;
+}
+
+.card-info a {
+    margin: 75px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 25px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #007886;
+    cursor: pointer;
+    transition: 500ms;
+    font-weight: 600;
+}
+
+.card-info a:hover {
+    background-color: #06a4b6;
+    color: white;
+}
+
+.invisivel {
+    display: none;
+}
+
+#hidden {
+    background-image: url('../img/flat-coming-soon-construction-background_1017-37083.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.botoes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    margin: 0 auto;
+}
+
+.botoes button {
+    width: 100%;
+    margin: 25px 0;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #007886;
+    cursor: pointer;
+    transition: 500ms;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.botoes button:hover {
+    background-color: #06a4b6;
+    color: white;
+}
+
+.botoes a {
+    margin: 25px 0;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}

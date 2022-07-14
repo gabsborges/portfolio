@@ -1,0 +1,27 @@
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3eaa92;
+}
+
+.footer__texto p {
+    color: white;
+}
+
+.footer__redes a {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.footer__redes i {
+    font-size: 70px;
+    color: black;
+    transition: 1s;
+}
+
+.footer__redes i:hover {
+    color: #068cd3;
+    transform: rotate(360deg);
+}

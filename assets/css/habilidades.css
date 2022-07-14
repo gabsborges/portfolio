@@ -1,0 +1,55 @@
+.habilidades {
+    background-color: #007886;
+    height: 60vh;
+    padding-top: 20px;
+}
+
+.habilidades h1 {
+    padding: 45px;
+    font-size: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.habilidades__container {
+    display: flex;
+    justify-content: center;
+}
+
+.cards__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.cards__container .card {
+    height: 106px;
+    width: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.cards__container .card:hover {
+    background-color: #f0ecec;
+}
+
+.cards__container .card img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+}
+
+.descricao p {
+    margin-top: 12px;
+    font-size: 20px;
+    width: 400px;
+    color: white;
+}

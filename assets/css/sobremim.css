@@ -1,0 +1,32 @@
+.sobre-mim {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #a0d995;
+}
+
+.sobre-mim__img {
+    margin-right: 30px;
+}
+
+.sobre-mim__img img {
+    width: 90%;
+}
+
+.sobre-mim__container {
+    width: 600px;
+}
+
+.sobre-mim h1 {
+    margin: 15px;
+    font-size: 40px;
+    color: #FFF;
+}
+
+.sobre-mim p {
+    font-weight: 600;
+    margin: 15px 0;
+}
+
